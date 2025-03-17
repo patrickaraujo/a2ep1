@@ -2,7 +2,9 @@ echo "Running tests..."
 echo
 
 output=$(./a.out)
-expected_output="Hello"
+expected_output="Inicio do programa
+Valor da constante: 3.141500
+Fim do programa"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"
